@@ -268,7 +268,7 @@ int main(int argc, char *argv[]) {
     resultado.MaiorMesa(mesas, ite);   
 
     //imprime as dimensões da mesa
-    std::cout << resultado.saidaArea << resultado.saidaComprimento << " " << resultado.saidaLargura;
+    std::cout << resultado.saidaComprimento << " " << resultado.saidaLargura;
         
     return 0;
 }
